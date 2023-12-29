@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="full-screen" content="yes"><!--UC强制全屏-->
+    <meta name="browsermode" content="application"><!--UC应用模式-->
+    <meta name="x5-fullscreen" content="true"><!--QQ强制全屏-->
+    <meta name="x5-page-mode" content="app"><!--QQ应用模式-->
+    <link rel="icon" href="icon/logo.png">
+    <title>7li7li</title>
+    <meta name="keywords" content="网站导航,导航页,浏览器主页,自定义" />
+    <meta name="description" content="自用导航页（HTML，jQuery，CSS），可定义多个搜索引擎，自由添加和编辑主页及侧栏快捷方式，兼容手机浏览器。">
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/jQuery.rTabs.js"></script>
+    <script src="./js/js.cookie.js"></script>
+    <script src="./js/sou.js"></script>
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/sou.css">
+    <!--星星动画-->
+    <style type="text/css">
+        .d1 {
+            width: 100%;
+            height: 100%;
+            margin: 0px auto;
+            background: url("img/midground.png");
+            z-index: 1;
+            -webkit-animation: da 100s linear infinite;
+            -moz-animation: da 100s linear infinite;
+            -o-animation: da 100s linear infinite;
+            animation: da 100s linear infinite;
+        }
+
+        .d2 {
+            width: 100%;
+            height: 100%;
+            margin: 0px auto;
+            background: url("img/foreground.png");
+            z-index: 2;
+            -webkit-animation: cc 153s linear infinite;
+            -o-animation: cc 153s linear infinite;
+            -moz-animation: cc 153s linear infinite;
+            animation: cc 153s linear infinite;
+        }
+
+        @-webkit-keyframes cc {
+            from {
+                background-position: 0 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                background-position: 600% 0;
+            }
+        }
+
+        @-o-keyframes cc {
+            from {
+                background-position: 0 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                background-position: 600% 0;
+            }
+        }
+
+        @-moz-keyframes cc {
+            from {
+                background-position: 0 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                background-position: 600% 0;
+            }
+        }
+
+        @keyframes cc {
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: 600% 0;
+            }
+        }
+
+        @keyframes da {
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: 0 600%;
+            }
+        }
+
+        @-webkit-keyframes da {
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: 0 600%;
+            }
+        }
+
+        @-moz-keyframes da {
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: 0 600%;
+            }
+        }
+
+        @-ms-keyframes da {
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: 0 600%;
+            }
+        }
+    </style>
+    <!--星星动画-->
+</head>
+<body>
+    <!--搜索框和书签-->
+    <div id="content">
+        <!--星星动画-->
+        <div class="d1">
+            <div class="d2">
+                <!--星星动画-->
+                <div class="con">
+                    <div class="sou">
+                        <form class="search" action="https://www.baidu.com/s" target="_blank">
+                            <img class="se" src="./icon/baidu.svg" title="点击切换搜索引擎">
+                            <input class="wd" type="text" name="wd" placeholder="请输入搜索内容" autocomplete="off">
+                            <button class="s">
+                                <i style="font-size: 20px;" class="iconfont icon-sousuo"></i>
+                            </button>
+                        </form>
+                        <div id="keywords" style="display: none;"></div>
+                        <div class="search-engine" style="display: none;">
+                            <div class="search-engine-head">
+                                <strong class="search-engine-tit">选择搜索引擎：</strong>
+                            </div>
+                            <span class="search-engine-tip"></span>
+                            <ul class="search-engine-list">
+                            </ul>
+                        </div>
+                        <div class="quick-div">
+                            <ul class="quick-ul">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <p>
+                <a href="https://beian.miit.gov.cn/" target="_blank">冀ICP备2023012147号-1</a>
+                <img src="icon/beian.png" />
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102006566" target="_blank">京公网安备 11010102006566号</a>
+                <a>©</a>
+                <a>
+                    <script>document.write(new Date().getFullYear())</script>
+                    By
+                </a><a href="https://www.7li7li.cn" target="_blank">7li7li小破站</a>
+            </p>
+        </div>
+    </div>
+    <!--搜索框和书签 end-->
+</body>
+</html>
