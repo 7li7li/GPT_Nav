@@ -1,0 +1,90 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ChatGPT(由小站提供)</title>
+    <link href="static/32.png" rel="icon" sizes="32x32" />
+    <link href="static/192.png" rel="icon" sizes="192x192" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            text-indent: 10px;
+            word-spacing: 5px;
+            padding-top: 10px;
+            padding-bottom: 0px;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            font: lighter 16px "微软雅黑";
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 95vh; /* 这是为了垂直居中 */
+        }
+
+        a {
+            color: darkolivegreen;
+            text-decoration: none;
+        }
+
+        .bb {
+            width: 100%;
+            height: 100%;
+        }
+
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <script>
+        if (localStorage.getItem('hasPopped') !== 'true') {
+
+            <!-- alert("ChatGPT由第三方提供,本站不提供任何技术支持,如无法访问，请尝试开启魔法代理"); -->
+			alert("ChatGPT由小站提供，如遇到问题请进群：788308985");
+            localStorage.setItem('hasPopped', 'true');
+
+        }
+        //window.onload = function openPopup() {
+        //    alert("ChatGPT由第三方提供,本站不提供任何技术支持");
+        //}
+    </script>
+</head>
+<body>
+    <div class="bb">
+        <div style="text-align:left;">
+            <form action="https://google.7li7li.sbs/search?q=" method="get" target="_blank">
+                <p>
+                    <a href="https://www.7li7li.cn" title="7li7li导航站" target="_blank">7li7li</a>
+                    <a href="https://pandora.7li7li.cn" title="需要有ChatGPT帐号,不消化Token使用ChatGPT" target="_blank">Pandora</a>
+					<!-- <a href="https://ai.fakeopen.com/auth" title="获取Access Token和Session Token" target="_blank">获取Token</a> -->
+                    <a href="https://chatgpt.7li7li.cn" title="免魔法，免帐号，小站提供免费支持" target="_blank">ChatGPT</a>
+                    <!-- <a href="https://github.7li7li.cn/LiLittleCat/awesome-free-chatgpt" title="第三方ChatGPT镜像站集合" target="_blank">镜像GPT</a> -->
+                    <!-- <a href="https://link.7li7li.sbs/shared" title="免费共享ChatGPT帐号，需魔法上网" target="_blank">共享GPT</a> -->
+					<!-- <a href="https://blog.7li7li.cn/2023/08/chatgpt.html" title="喂饭级教程，需魔法上网" target="_blank">注册ChatGPT</a> -->
+                    <a href="https://bing.7li7li.cn" title="免魔法，免帐号，小站提供免费支持" target="_blank">NewBing</a>
+					<a href="https://claude.ai" title="另一款强大的AI，需要魔法" target="_blank">Claude</a>	
+                    <a href="https://yiyan.baidu.com/" title="百度文心一言" target="_blank">文心一言</a>					
+                    <!--<a href="https://google.7li7li.sbs" title="搜索结果由谷歌提供与本站无关" target="_blank">Google</a>-->
+                    <input type="text" name="q" placeholder="Google" />
+                    <input type="submit" value="搜索" />
+                </p>
+            </form>
+        </div>
+        <div class="container">		
+		    <!-- <iframe src="https://pandora.7li7li.cn/shared.html"></iframe> -->
+            <!-- <iframe src="https://link.7li7li.sbs/gpt"></iframe> -->
+			<iframe src="https://chatgpt.7li7li.cn"></iframe>
+        </div>
+    </div>
+</body>
+</html>
