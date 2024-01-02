@@ -103,7 +103,6 @@ var themes_preinstall = {
 //背景图片
 var bg_img_preinstall = {
     "type" : "3",// 1:使用主题默认的背景图片、2:关闭背景图片、3:使用自定义的背景图片
-    //"path": "https://7li7li.cn/static/background2.jpg",//背景图片
     "path": "./img/background.jpg",//背景图片
 };
 
