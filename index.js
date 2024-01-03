@@ -1582,8 +1582,8 @@ const ct = (o, n, s, i) => {
 			type: "out",
 			width: 1024,
 			height: 768,
-			x: 256,
-			y: 132
+			x: 240,
+			y: 50
 		},
 		{
 			id: "pandora",
@@ -1593,8 +1593,8 @@ const ct = (o, n, s, i) => {
 			type: "inner",
 			width: 1024,
 			height: 768,
-			x: 266,
-			y: 142
+			x: 250,
+			y: 70
 		},
 		{
 			id: "chatgpt",
@@ -1604,8 +1604,8 @@ const ct = (o, n, s, i) => {
 			type: "inner",
 			width: 1024,
 			height: 768,
-			x: 276,
-			y: 152
+			x: 300,
+			y: 80
 		},
 		{
 			id: "newbing",
@@ -1615,8 +1615,8 @@ const ct = (o, n, s, i) => {
 			type: "inner",
 			width: 1024,
 			height: 768,
-			x: 286,
-			y: 162
+			x: 350,
+			y: 90
 		},
 		{
 			id: "claude",
@@ -1627,7 +1627,7 @@ const ct = (o, n, s, i) => {
 			width: 1024,
 			height: 768,
 			x: 280,
-			y: 32
+			y: 100
 		}, {
 			id: "bard",
 			name: "Bard",
@@ -1637,7 +1637,7 @@ const ct = (o, n, s, i) => {
 			width: 1024,
 			height: 768,
 			x: 218,
-			y: 13
+			y: 110
 		}, {
 			id: "yiyan",
 			name: "\u6587\u5FC3\u4E00\u8A00",
@@ -1647,7 +1647,7 @@ const ct = (o, n, s, i) => {
 			width: 1024,
 			height: 768,
 			x: 145,
-			y: 10
+			y: 120
 		}
 	];
 
