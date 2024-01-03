@@ -1623,7 +1623,7 @@ const ct = (o, n, s, i) => {
 			name: "\u6587\u5FC3\u4E00\u8A00",
 			link: "https://yiyan.baidu.com/",
 			logo: "/icon/yiyan.png",
-			type: "inner",
+			type: "outer",
 			width: 1024,
 			height: 768,
 			x: 400,
