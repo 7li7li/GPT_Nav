@@ -1579,7 +1579,7 @@ const ct = (o, n, s, i) => {
 			name: "7li7li",
 			link: "https://www.7li7li.cn/",
 			logo: "icon/7li7li.png",
-			type: "out",
+			type: "outer",
 			width: 1024,
 			height: 768,
 			x: 240,
@@ -1618,6 +1618,17 @@ const ct = (o, n, s, i) => {
 			x: 350,
 			y: 90
 		},
+	    {
+			id: "yiyan",
+			name: "\u6587\u5FC3\u4E00\u8A00",
+			link: "https://yiyan.baidu.com/",
+			logo: "/icon/yiyan.png",
+			type: "inner",
+			width: 1024,
+			height: 768,
+			x: 400,
+			y: 100
+		},
 		{
 			id: "claude",
 			name: "Claude",
@@ -1627,7 +1638,7 @@ const ct = (o, n, s, i) => {
 			width: 1024,
 			height: 768,
 			x: 280,
-			y: 100
+			y: 110
 		}, {
 			id: "bard",
 			name: "Bard",
@@ -1637,16 +1648,6 @@ const ct = (o, n, s, i) => {
 			width: 1024,
 			height: 768,
 			x: 218,
-			y: 110
-		}, {
-			id: "yiyan",
-			name: "\u6587\u5FC3\u4E00\u8A00",
-			link: "https://yiyan.baidu.com/",
-			logo: "/icon/yiyan.png",
-			type: "outer",
-			width: 1024,
-			height: 768,
-			x: 145,
 			y: 120
 		}
 	];
