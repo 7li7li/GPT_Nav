@@ -215,7 +215,7 @@ const U = o => {
 	}, {
 		name: "\u5F71\u89C6\u7C7B",
 		urls: [{
-			title: "Bilibili",
+			title: "bilibili",
 			describtion: "\u9AD8\u8D28\u91CF\u5185\u5BB9\u7684\u805A\u96C6\u5730",
 			url: "https://search.bilibili.com/all?keyword=$keyword$"
 		}, {
@@ -267,17 +267,30 @@ const U = o => {
 			url: "  https://music.taihe.com/search?word=$keyword$"
 		}]
 	}, {
-		name: "\u81EA\u5B9A\u4E49",
-		urls: [{
-			title: "stack",
-			describtion: "search on stackoverflow",
-			url: "https://stackoverflow.com/search?q=$keyword$"
-		}, {
-			title: "wolfram",
-			describtion: "search on wolframalpha",
-			url: "https://www.wolframalpha.com/input/?i=$keyword$"
-		}]
-	}],
+		name: "\u7f16\u7a0b\u7c7b",
+			urls: [{
+				title: "Devv",
+				describtion: "search on devv",
+				url: "https://devv.ai/zh/search/$keyword$?lang=zh"
+			}, {
+				title: "Phind",
+				describtion: "search on phind",
+				url: "https://www.phind.com/search?q=$keyword$"
+			}]
+		}
+		//, {
+		//name: "\u81EA\u5B9A\u4E49",
+		//urls: [{
+		//	title: "stack",
+		//	describtion: "search on stackoverflow",
+		//	url: "https://stackoverflow.com/search?q=$keyword$"
+		//}, {
+		//	title: "wolfram",
+		//	describtion: "search on wolframalpha",
+		//	url: "https://www.wolframalpha.com/input/?i=$keyword$"
+		//}]
+		//}
+	],
 	xe = {
 		title: "\u767E\u5EA6",
 		describtion: "\u767E\u5EA6\u4E00\u4E0B\uFF0C\u4F60\u5C31\u77E5\u9053",
@@ -1573,7 +1586,7 @@ const ct = (o, n, s, i) => {
 			})]
 		})
 	},
-	dt = [
+	dt = [//×ªÂëhttp://www.kuquidc.com/convert/Unicode.php
 		{
 			id: "7li7li",
 			name: "7li7li",
@@ -1586,10 +1599,10 @@ const ct = (o, n, s, i) => {
 			y: 50
 		},
 		{
-			id: "pandora",
-			name: "Pandora",
-			link: "https://pandora.7li7li.cn/",
-			logo: "/icon/pandora.png",
+			id: "chatgpt",
+			name: "ChatGPT",
+			link: "https://link.7li7li.cn/chatgpt",
+			logo: "/icon/chatgpt.png",
 			type: "inner",
 			width: 1024,
 			height: 768,
@@ -1597,10 +1610,10 @@ const ct = (o, n, s, i) => {
 			y: 70
 		},
 		{
-			id: "chatgpt",
-			name: "ChatGPT",
-			link: "https://chatgpt.7li7li.cn/",
-			logo: "/icon/chatgpt.png",
+			id: "kimi",
+			name: "Kimi",
+			link: "https://kimi.moonshot.cn/",
+			logo: "/icon/kimi.png",
 			type: "inner",
 			width: 1024,
 			height: 768,
@@ -1608,14 +1621,25 @@ const ct = (o, n, s, i) => {
 			y: 80
 		},
 		{
-			id: "newbing",
-			name: "NewBing",
-			link: "https://bing.7li7li.cn",
-			logo: "/icon/bing.png",
+			id: "devv",
+			name: "Devv",
+			link: "https://devv.ai/",
+			logo: "/icon/devv.png",
 			type: "inner",
 			width: 1024,
 			height: 768,
 			x: 350,
+			y: 90
+		},
+		{
+			id: "xfyun",
+			name: "\u8baf\u98de\u661f\u706b",
+			link: "https://xinghuo.xfyun.cn/",
+			logo: "/icon/xfyun.png",
+			type: "inner",			
+			width: 1024,
+			height: 768,
+			x: 400,
 			y: 90
 		},
 	    {
