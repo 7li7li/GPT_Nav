@@ -1595,8 +1595,8 @@ const ct = (o, n, s, i) => {
 			type: "outer",
 			width: 1024,
 			height: 768,
-			x: 240,
-			y: 50
+			x: 250,
+			y: 60
 		},
 		{
 			id: "chatgpt",
@@ -1610,10 +1610,10 @@ const ct = (o, n, s, i) => {
 			y: 70
 		},
 		{
-			id: "kimi",
-			name: "Kimi",
-			link: "https://kimi.moonshot.cn/",
-			logo: "/icon/kimi.png",
+			id: "newbing",
+			name: "NewBing",
+			link: "https://link.7li7li.cn/newbing",
+			logo: "/icon/bing.png",
 			type: "inner",
 			width: 1024,
 			height: 768,
@@ -1621,15 +1621,37 @@ const ct = (o, n, s, i) => {
 			y: 80
 		},
 		{
-			id: "devv",
-			name: "Devv",
-			link: "https://devv.ai/",
-			logo: "/icon/devv.png",
+			id: "gemini",
+			name: "Gemini",
+			link: "https://gemini.7li7li.cn/",
+			logo: "/icon/gemini.png",
 			type: "inner",
 			width: 1024,
 			height: 768,
 			x: 350,
 			y: 90
+		},
+		{
+			id: "chatglm",
+			name: "ChatGLM",
+			link: "https://www.chatglm.cn/",
+			logo: "/icon/chatglm.png",
+			type: "inner",
+			width: 1024,
+			height: 768,
+			x: 400,
+			y: 100
+		},
+		{
+			id: "kimi",
+			name: "Kimi",
+			link: "https://kimi.moonshot.cn/",
+			logo: "/icon/kimi.png",
+			type: "inner",
+			width: 1024,
+			height: 768,
+			x: 450,
+			y: 110
 		},
 		{
 			id: "xfyun",
@@ -1639,19 +1661,30 @@ const ct = (o, n, s, i) => {
 			type: "inner",			
 			width: 1024,
 			height: 768,
-			x: 400,
-			y: 90
+			x: 500,
+			y: 120
 		},
-	    {
+		{
 			id: "yiyan",
 			name: "\u6587\u5FC3\u4E00\u8A00",
 			link: "https://yiyan.baidu.com/",
 			logo: "/icon/yiyan.png",
+			type: "outer",			
+			width: 1024,
+			height: 768,
+			x: 550,
+			y: 130
+		},
+		{
+			id: "tongyi",
+			name: "\u901a\u4e49",
+			link: "https://tongyi.aliyun.com/",
+			logo: "/icon/tongyi.png",
 			type: "outer",
 			width: 1024,
 			height: 768,
-			x: 400,
-			y: 100
+			x: 600,
+			y: 140
 		},
 		{
 			id: "claude",
@@ -1661,8 +1694,8 @@ const ct = (o, n, s, i) => {
 			type: "outer",
 			width: 1024,
 			height: 768,
-			x: 280,
-			y: 110
+			x: 650,
+			y: 150
 		}, {
 			id: "bard",
 			name: "Bard",
@@ -1671,8 +1704,8 @@ const ct = (o, n, s, i) => {
 			type: "outer",
 			width: 1024,
 			height: 768,
-			x: 218,
-			y: 120
+			x: 700,
+			y: 160
 		}
 	];
 
