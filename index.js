@@ -1623,7 +1623,7 @@ const ct = (o, n, s, i) => {
 		{
 			id: "gemini",
 			name: "Gemini",
-			link: "hhttps://link.7li7li.cn/gemini",
+			link: "https://link.7li7li.cn/gemini",
 			logo: "/icon/gemini.png",
 			type: "inner",
 			width: 1024,
