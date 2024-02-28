@@ -1696,16 +1696,6 @@ const ct = (o, n, s, i) => {
 			height: 768,
 			x: 650,
 			y: 150
-		}, {
-			id: "bard",
-			name: "Bard",
-			link: "https://bard.google.com/",
-			logo: "/icon/bard.png",
-			type: "outer",
-			width: 1024,
-			height: 768,
-			x: 700,
-			y: 160
 		}
 	];
 
