@@ -1610,10 +1610,10 @@ const ct = (o, n, s, i) => {
 			y: 70
 		},
 		{
-			id: "newbing",
-			name: "NewBing",
-			link: "https://link.7li7li.cn/newbing",
-			logo: "/icon/bing.png",
+			id: "copilot",
+			name: "Copilot",
+			link: "https://copilot.microsoft.com",
+			logo: "/icon/copilot.png",
 			type: "inner",
 			width: 1024,
 			height: 768,
