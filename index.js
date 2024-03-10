@@ -1586,7 +1586,7 @@ const ct = (o, n, s, i) => {
 			})]
 		})
 	},
-	dt = [//×ªÂëhttp://www.kuquidc.com/convert/Unicode.php
+	dt = [//×ªï¿½ï¿½http://www.kuquidc.com/convert/Unicode.php
 		{
 			id: "7li7li",
 			name: "7li7li",
@@ -1612,9 +1612,9 @@ const ct = (o, n, s, i) => {
 		{
 			id: "copilot",
 			name: "Copilot",
-			link: "https://copilot.microsoft.com",
+			link: "https://link.7li7li.cn/copilot",
 			logo: "/icon/copilot.png",
-			type: "inner",
+			type: "outer",
 			width: 1024,
 			height: 768,
 			x: 300,
@@ -1625,7 +1625,7 @@ const ct = (o, n, s, i) => {
 			name: "Gemini",
 			link: "https://link.7li7li.cn/gemini",
 			logo: "/icon/gemini.png",
-			type: "inner",
+			type: "outer",
 			width: 1024,
 			height: 768,
 			x: 350,
@@ -1766,7 +1766,7 @@ const ht = () => {
 			}), c("section", {
 				className: "AppList",
 				children: [e("div", {
-					//µÚÒ»¸öÍ¼±ê
+					//ï¿½ï¿½Ò»ï¿½ï¿½Í¼ï¿½ï¿½
 					//className: "AppList-app center",
 					//onClick: () => {},
 					//ref: u,
@@ -1861,7 +1861,7 @@ const wt = () => c("div", {
 	Ft = () => c(je, {
 		children: [c("div", {
 			className: "main noselect",
-			//×¢ÊÍ weËÑ otÇåµ¥ wt³ÌÐò
+			//×¢ï¿½ï¿½ weï¿½ï¿½ otï¿½åµ¥ wtï¿½ï¿½ï¿½ï¿½
 			children: [e(We, {}), /*e(ot, {}),*/ e(wt, {})]
 		}), e(Oe, {})]
 	}),
