@@ -1595,15 +1595,26 @@ const ct = (o, n, s, i) => {
 			type: "outer",
 			width: 1024,
 			height: 768,
-			x: 250,
+			x: 150,
 			y: 60
+		},
+		{
+			id: "nextchat",
+			name: "7li-AI",
+			link: "https://link.7li7li.cn/chatgpt",
+			logo: "/icon/nextchat.png",
+			type: "inner",
+			width: 1024,
+			height: 768,
+			x: 200,
+			y: 70
 		},
 		{
 			id: "chatgpt",
 			name: "ChatGPT",
-			link: "https://link.7li7li.cn/chatgpt",
+			link: "https://link.7li7li.cn/openai",
 			logo: "/icon/chatgpt.png",
-			type: "inner",
+			type: "outer",
 			width: 1024,
 			height: 768,
 			x: 250,
@@ -1632,6 +1643,17 @@ const ct = (o, n, s, i) => {
 			y: 90
 		},
 		{
+			id: "claude",
+			name: "Claude",
+			link: "https://claude.ai/",
+			logo: "/icon/claude.png",
+			type: "outer",
+			width: 1024,
+			height: 768,
+			x: 400,
+			y: 100
+		},
+		{
 			id: "chatglm",
 			name: "ChatGLM",
 			link: "https://www.chatglm.cn/",
@@ -1639,8 +1661,8 @@ const ct = (o, n, s, i) => {
 			type: "inner",
 			width: 1024,
 			height: 768,
-			x: 400,
-			y: 100
+			x: 450,
+			y: 110
 		},
 		{
 			id: "kimi",
@@ -1650,8 +1672,8 @@ const ct = (o, n, s, i) => {
 			type: "inner",
 			width: 1024,
 			height: 768,
-			x: 450,
-			y: 110
+			x: 500,
+			y: 120
 		},
 		{
 			id: "xfyun",
@@ -1661,8 +1683,8 @@ const ct = (o, n, s, i) => {
 			type: "inner",			
 			width: 1024,
 			height: 768,
-			x: 500,
-			y: 120
+			x: 550,
+			y: 130
 		},
 		{
 			id: "yiyan",
@@ -1672,25 +1694,14 @@ const ct = (o, n, s, i) => {
 			type: "outer",			
 			width: 1024,
 			height: 768,
-			x: 550,
-			y: 130
+			x: 600,
+			y: 140
 		},
 		{
 			id: "tongyi",
 			name: "\u901a\u4e49",
 			link: "https://tongyi.aliyun.com/",
 			logo: "/icon/tongyi.png",
-			type: "outer",
-			width: 1024,
-			height: 768,
-			x: 600,
-			y: 140
-		},
-		{
-			id: "claude",
-			name: "Claude",
-			link: "https://claude.ai/",
-			logo: "/icon/claude.png",
 			type: "outer",
 			width: 1024,
 			height: 768,
