@@ -119,9 +119,9 @@ const U = o => {
 			describtion: "\u641C\u72D7\u641C\u7D22\uFF0C\u503C\u5F97\u62E5\u6709",
 			url: "https://www.sogou.com/web?query=$keyword$"
 		}, {
-			title: "F\u641c",
-			describtion: "F\u641c\uff0c\u805a\u5408\u641c\u7d22",
-			url: "https://fsoufsou.com/search?q=$keyword$"
+			title: "360",
+			describtion: "360\u641c\u7d22\uff0c\u5b89\u5168\u53EF\u9760",
+			url: "https://www.so.com/s?q=$keyword$"
 		}, {
 			title: "\u8C37\u6B4C",
 			describtion: "\u4E16\u754C\u4E0A\u6700\u5927\u7684\u641C\u7D22\u5F15\u64CE",
