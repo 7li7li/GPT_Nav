@@ -1590,7 +1590,7 @@ const ct = (o, n, s, i) => {
 		{
 			id: "7li7li",
 			name: "7li7li",
-			link: "https://www.7li7li.cn/",
+			link: "https://www.7li7li.cn",
 			logo: "icon/7li7li.png",
 			type: "outer",
 			width: 1024,
@@ -1612,8 +1612,8 @@ const ct = (o, n, s, i) => {
 		{
 			id: "chatgpt",
 			name: "ChatGPT",
-			link: "https://link.7li7li.cn/openai",
-			logo: "/icon/chatgpt.png",
+			link: "https://openai.com",
+			logo: "/icon/openai.svg",
 			type: "outer",
 			width: 1024,
 			height: 768,
@@ -1621,10 +1621,10 @@ const ct = (o, n, s, i) => {
 			y: 70
 		},
 		{
-			id: "copilot",
-			name: "Copilot",
-			link: "https://link.7li7li.cn/copilot",
-			logo: "/icon/copilot.png",
+			id: "claude",
+			name: "Claude",
+			link: "https://claude.ai",
+			logo: "/icon/claude.svg",
 			type: "outer",
 			width: 1024,
 			height: 768,
@@ -1634,8 +1634,8 @@ const ct = (o, n, s, i) => {
 		{
 			id: "gemini",
 			name: "Gemini",
-			link: "https://link.7li7li.cn/gemini",
-			logo: "/icon/gemini.png",
+			link: "https://gemini.google.com",
+			logo: "/icon/gemini.svg",
 			type: "outer",
 			width: 1024,
 			height: 768,
@@ -1643,10 +1643,10 @@ const ct = (o, n, s, i) => {
 			y: 90
 		},
 		{
-			id: "claude",
-			name: "Claude",
-			link: "https://claude.ai/",
-			logo: "/icon/claude.png",
+			id: "copilot",
+			name: "Copilot",
+			link: "https://copilot.microsoft.com",
+			logo: "/icon/copilot.svg",
 			type: "outer",
 			width: 1024,
 			height: 768,
@@ -1654,33 +1654,33 @@ const ct = (o, n, s, i) => {
 			y: 100
 		},
 		{
-			id: "chatglm",
-			name: "ChatGLM",
-			link: "https://www.chatglm.cn/",
-			logo: "/icon/chatglm.png",
-			type: "inner",
+			id: "grok",
+			name: "Grok",
+			link: "https://x.ai",
+			logo: "/icon/grok.svg",
+			type: "outer",
 			width: 1024,
 			height: 768,
 			x: 450,
 			y: 110
 		},
 		{
-			id: "kimi",
-			name: "Kimi",
-			link: "https://kimi.moonshot.cn/",
-			logo: "/icon/kimi.png",
-			type: "inner",
+			id: "deepseek",
+			name: "DeepSeek",
+			link: "https://www.deepseek.com",
+			logo: "/icon/deepseek.svg",
+			type: "outer",
 			width: 1024,
 			height: 768,
 			x: 500,
 			y: 120
 		},
 		{
-			id: "xfyun",
-			name: "\u8baf\u98de\u661f\u706b",
-			link: "https://xinghuo.xfyun.cn/",
-			logo: "/icon/xfyun.png",
-			type: "inner",			
+			id: "qwen",
+			name: "\u901a\u4e49\u5343\u95ee",
+			link: "https://tongyi.aliyun.com",
+			logo: "/icon/qwen.svg",
+			type: "outer",			
 			width: 1024,
 			height: 768,
 			x: 550,
@@ -1688,25 +1688,14 @@ const ct = (o, n, s, i) => {
 		},
 		{
 			id: "yiyan",
-			name: "\u6587\u5FC3\u4E00\u8A00",
-			link: "https://yiyan.baidu.com/",
-			logo: "/icon/yiyan.png",
+			name: "\u8c46\u5305",
+			link: "https://www.doubao.com",
+			logo: "/icon/doubao.svg",
 			type: "outer",			
 			width: 1024,
 			height: 768,
 			x: 600,
 			y: 140
-		},
-		{
-			id: "tongyi",
-			name: "\u901a\u4e49",
-			link: "https://tongyi.aliyun.com/",
-			logo: "/icon/tongyi.png",
-			type: "outer",
-			width: 1024,
-			height: 768,
-			x: 650,
-			y: 150
 		}
 	];
 
